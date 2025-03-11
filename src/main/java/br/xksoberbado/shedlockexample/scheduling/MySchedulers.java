@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class MySchedulers {
 
     @Scheduled(cron = "*/10 * * * * *")
-    @SchedulerLock(name = "ten-scheduler")
+    @SchedulerLock(name = "lock-example")
     void run() {
         log.info("Here");
     }
