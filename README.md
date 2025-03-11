@@ -1,6 +1,10 @@
 # shedlock-example
 POC utilizando ShedLock que é uma biblioteca Java 
-integrada com o Spring para lock's distribuídos em tarefas agendadas. 
+integrada com o Spring para lock's distribuídos em tarefas agendadas, 
+
+Objetivo: permitir escalar horizontalmente uma aplicação com task's agendadas 
+de uma forma que as tasks agendadas executem apenas em uma instância das N rodando. 
+
 O ShedLock prevê vários recursos para gerenciar os lock's (https://github.com/lukas-krecan/ShedLock)
 
 ## Setup
